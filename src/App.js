@@ -103,7 +103,7 @@ function App() {
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    SCAN_LINK: "https://explorer.dogechain.dog/",
     NETWORK: {
       NAME: "Dogechain",
       SYMBOL: "wDOGE",
@@ -112,7 +112,7 @@ function App() {
     NFT_NAME: "Scribble",
     SYMBOL: "Scribble",
     MAX_SUPPLY: 800,
-    WEI_COST: 15000000000000000,
+    WEI_COST: 15000000000000000000,
     DISPLAY_COST: 15,
     GAS_LIMIT: 28500,
     MARKETPLACE: "Oasis",
