@@ -102,7 +102,7 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
+    CONTRACT_ADDRESS: "0x0aB925945E2e2379C5f202c5FFD8307339F12329",
     SCAN_LINK: "https://explorer.dogechain.dog/",
     NETWORK: {
       NAME: "Dogechain",
